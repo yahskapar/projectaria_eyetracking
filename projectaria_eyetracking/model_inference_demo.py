@@ -234,7 +234,7 @@ def main():
                         rr.log(
                             f"{rgb_stream_label}/eye-gaze_projection",
                             rr.Points2D(
-                                gaze_projection, radii=20, colors=[[0, 255, 0]]
+                                gaze_projection, radii=10, colors=[[0, 255, 0]]
                             ),
                         )
 
